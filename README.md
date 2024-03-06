@@ -9,3 +9,6 @@ To start this example, first of all you will need to run RabbitMQ an I suggest y
 In a command line, run the following command: docker run -d -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management This will start RabbitMQ in port 15672 (http://localhost:15672/)
 
 After you will need to run the console applications. Run dotnet run command for the consumer and producer. Basically the producer will producing messages and the consumer will be consuming those messages. Run as many consumers do you want.
+
+
+
